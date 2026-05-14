@@ -1,0 +1,26 @@
+# Ignore the entire frontend directory
+frontend/
+
+
+
+
+# Standard practice: ignore all node_modules just in case
+node_modules
+# Production build
+dist/
+build/
+
+# Environment variables (Crucial for security!)
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+git add .gitignore
+    git add .
+    git commit -m "chore: ignore node_modules and env files"
+    ```
+
+
+
